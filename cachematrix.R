@@ -6,7 +6,7 @@
 
 
 ## Write a short comment describing this function
-## takes a matrix 
+## takes a matrix holds the inverse of it.
 makeCacheMatrix <- function(currentMatrix = matrix()) {
 
     cachedInverse <- NULL
@@ -41,7 +41,7 @@ makeCacheMatrix <- function(currentMatrix = matrix()) {
 
 
 ## Write a short comment describing this function
-
+## calculates the inverse of a matrix object returned by the function above.
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         if (x$hasCachedInverse()) {
